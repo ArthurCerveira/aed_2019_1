@@ -1,13 +1,14 @@
-# Algoritmos e Estrutura de Dados 1 – Trabalho 2 
+# Algoritmos e Estrutura de Dados 1 – Trabalho 3
 
 ## Calculadora Polonesa
 
-A notaçao inversa polonesa  ́e uma notaçao  matematica posfix, diferente da notaçao matematica infix com a qual estamos acostumados. Ao  inves  do operador estar posicionado entre os operandos, ele est́a posicionado depois.
-Por exemplo, na notaçao polonesa, a expressao
+A notação inversa polonesa  ́e uma notação  matemática posfix, diferente da notaçao matemática infix com a qual estamos acostumados. Ao  inves  do operador estar posicionado entre os operandos, ele est́a posicionado depois.
+Por exemplo, na notação polonesa, a expressão
 	3 + 5 
 é expressa como
 	3 5 +
-Na pratica, uma calculadora que utiliza a notacao polonesa  ́e implementada utilizando uma pilha. Toda vez que um numero ́e informado a calculadora, o seu valor  ́e empilhado. Toda vez que uma operaçao  ́e informada, o numero necessario de operandos ́e retirado do topo da pilha, a operação é executada sobre esses operandos e o resultado da operação ́e armazenado na pilha.Neste trabalho vocês irão implementar partes de uma calculadora simples(executa operações de adição, subtração, multiplicação e divisão), bem como  partes  das  operaçoes  de  pilha  necessarias  para  que  a  calculadora  execute corretamente.
+Na prática, uma calculadora que utiliza a notação polonesa  ́e implementada utilizando uma pilha. Toda vez que um numero ́e informado a calculadora, o seu valor  ́e empilhado. Toda vez que uma operaçao  ́e informada, o numero necessario de operandos ́e retirado do topo da pilha, a operação é executada sobre esses operandos e o resultado da operação ́e armazenado na pilha. 
+Neste trabalho vocês irão implementar partes de uma calculadora simples(executa operações de adição, subtração, multiplicação e divisão), bem como  partes  das  operaçoes  de  pilha  necessarias  para  que  a  calculadora  execute corretamente.
 
 ## Implementação e Execução
 
@@ -19,7 +20,7 @@ A implementação incompleta da calculadora se encontra no arquivo tp3.c e você
 
 ## Funcionamento
 
-E importante ressaltar que a ordem dos operandos e extremamente importante para a execução.  Os operandos são empilhados na ordem em que se deseja que sejam operados,  ou seja,  o topo da pilha  ́e o segundo operandoem uma operação e o segundo elemento da pilha  ́e o primeiro operando da operação.
+E importante ressaltar que a ordem dos operandos e extremamente importante para a execução.  Os operandos são empilhados na ordem em que se deseja que sejam operados,  ou seja,  o topo da pilha  ́e o segundo operando em uma operação e o segundo elemento da pilha  ́e o primeiro operando da operação.
 O funcionamento da calculadora se dá da seguinte maneira: ela se mantém em loop de  entrada  de  dados,  onde  pode  receber  como  entrada  qualquer número em ponto flutuante,  bem como os operadores +,  -,  *,  / e =.  Todo número informado  ́e empilhado e todo operador executa sua operação sobre os operandos na pilha e armazena o resultado, exceto pelo operador =.  Nesse caso, o loop ́e encerrado e o topo da pilha  ́e retornado como resultado, mesmo que hajam mais números empilhados abaixo.
 
 ## Avaliação
