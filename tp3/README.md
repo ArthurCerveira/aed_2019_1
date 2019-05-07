@@ -20,8 +20,8 @@ A implementação incompleta da calculadora se encontra no arquivo tp3.c e você
 
 ## Funcionamento
 
-E importante ressaltar que a ordem dos operandos e extremamente importante para a execução.  Os operandos são empilhados na ordem em que se deseja que sejam operados,  ou seja,  o topo da pilha  ́e o segundo operando em uma operação e o segundo elemento da pilha  ́e o primeiro operando da operação.
-O funcionamento da calculadora se dá da seguinte maneira: ela se mantém em loop de  entrada  de  dados,  onde  pode  receber  como  entrada  qualquer número em ponto flutuante,  bem como os operadores +,  -,  *,  / e =.  Todo número informado  ́e empilhado e todo operador executa sua operação sobre os operandos na pilha e armazena o resultado, exceto pelo operador =.  Nesse caso, o loop ́e encerrado e o topo da pilha  ́e retornado como resultado, mesmo que hajam mais números empilhados abaixo.
+E importante ressaltar que a ordem dos operandos e extremamente importante para a execução.  Os operandos são empilhados na ordem em que se deseja que sejam operados,  ou seja,  o topo da pilha é o segundo operando em uma operação e o segundo elemento da pilha  ́e o primeiro operando da operação.
+O funcionamento da calculadora se dá da seguinte maneira: ela se mantém em loop de  entrada  de  dados,  onde  pode  receber  como  entrada  qualquer número em ponto flutuante,  bem como os operadores +,  -,  *,  / e =.  Todo número informado é empilhado e todo operador executa sua operação sobre os operandos na pilha e armazena o resultado, exceto pelo operador =.  Nesse caso, o loop ́e encerrado e o topo da pilha é retornado como resultado, mesmo que hajam mais números empilhados abaixo.
 
 ## Avaliação
 
